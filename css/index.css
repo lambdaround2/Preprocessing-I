@@ -133,4 +133,64 @@ table {
 html,
 body {
   height: 100%;
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+}
+.home-page .hero {
+  background: #c6d8ff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px;
+}
+.home-page .hero .navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 3%;
+  width: 45%;
+  height: 75px;
+  align-self: flex-end;
+}
+.home-page .hero .navigation-bar a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+.home-page .hero img {
+  height: auto;
+  width: 400px;
+}
+.home-page .hero h1 {
+  font-size: 5.6rem;
+  padding: 2% 0;
+}
+.home-page .hero h2 {
+  font-size: 3.5rem;
+}
+.home-page .hero .line {
+  height: 1px;
+  width: 100%;
+  border: 1px solid;
+  margin: 5% 0;
+}
+.home-page .hero p {
+  font-size: 1.6rem;
+  padding: 2% 0;
+}
+.home-page .hero .cta-btn {
+  background: grey;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  font-size: 1.8rem;
+  border-radius: 5px;
+  margin: 2% 0;
+}
+.home-page .hero .cta-btn:hover {
+  cursor: pointer;
+}
+.font {
+  font-family: "Open Sans", sans-serif;
 }
