@@ -191,6 +191,31 @@ body {
 .home-page .hero .cta-btn:hover {
   cursor: pointer;
 }
+.home-page .main-content {
+  display: flex;
+  justify-content: center;
+  font-size: 1.6rem;
+}
+.home-page .main-content .left-ctnr,
+.home-page .main-content .right-ctnr {
+  width: 49%;
+  padding: 2%;
+}
+.home-page .main-content .left-ctnr h3,
+.home-page .main-content .right-ctnr h3 {
+  font-size: 3.4rem;
+  font-weight: bold;
+  padding: 3% 0;
+}
+.home-page .main-content .right-ctnr h4 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  padding: 3% 0;
+}
+.home-page .main-content .right-ctnr li {
+  border: 1px solid silver;
+  padding: 3%;
+}
 .font {
   font-family: "Open Sans", sans-serif;
 }
